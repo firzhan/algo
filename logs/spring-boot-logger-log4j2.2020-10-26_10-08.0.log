@@ -1,0 +1,38 @@
+2020-10-26 10:08:42,090 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [au.com.x.algo.ResultServiceUnitTest], using DelegatingSmartContextLoader
+2020-10-26 10:08:42,099 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [au.com.x.algo.ResultServiceUnitTest]: no resource found for suffixes {-context.xml}.
+2020-10-26 10:08:42,100 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [au.com.x.algo.ResultServiceUnitTest]: ResultServiceUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-10-26 10:08:42,147 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-10-26 10:08:42,163 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@ae13544, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3d34d211, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7dc0f706, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4009e306, org.springframework.test.context.support.DirtiesContextTestExecutionListener@43c1b556, org.springframework.test.context.event.EventPublishingTestExecutionListener@587e5365, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@22fcf7ab, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2de23121, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63475ace, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4988d8b8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c0c2f8d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@305b7c14]
+2020-10-26 10:08:42,505 INFO au.com.x.algo.service.Result [main] 1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+2020-10-26 10:08:42,509 INFO au.com.x.algo.service.Result [main] 1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz

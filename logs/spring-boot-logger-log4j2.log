@@ -1,0 +1,33 @@
+2020-10-26 10:42:41,285 INFO org.springframework.boot.StartupInfoLogger [main] Starting AlgoMainApplication v1.0.0 on firzhan with PID 2788 (/Users/firzhannaqash/Personal/algo/target/algo-1.0.0.jar started by firzhannaqash in /Users/firzhannaqash/Personal/algo)
+2020-10-26 10:42:41,293 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-26 10:42:41,293 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-10-26 10:42:42,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-10-26 10:42:42,342 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-26 10:42:42,343 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-10-26 10:42:42,343 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 10:42:42,428 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-10-26 10:42:42,428 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1073 ms
+2020-10-26 10:42:42,618 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 10:42:42,785 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-10-26 10:42:42,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 10:42:42,837 INFO org.springframework.boot.StartupInfoLogger [main] Started AlgoMainApplication in 1.898 seconds (JVM running for 2.589)
+2020-10-26 10:42:42,840 INFO au.com.x.algo.console.CommandLineAppRunner [main] EXECUTING : command line runner
+2020-10-26 10:42:42,840 INFO au.com.x.algo.console.CommandLineAppRunner [main] args[0]: 1
+2020-10-26 10:42:42,844 INFO au.com.x.algo.console.CommandLineAppRunner [main] args[1]: 15
+2020-10-26 10:42:42,845 INFO au.com.x.algo.service.Result [main] 1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+2020-10-26 10:42:42,927 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-26 10:42:42,927 WARN au.com.x.algo.config.ApplicationConfig [main] No House Keeping Tasks to be performed now
